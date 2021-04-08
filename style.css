@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "museo_sans_rounded300";
+  src: url("fonts/museosansrounded-300-webfont.eot");
+  src: url("fonts/museosansrounded-300-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/museosansrounded-300-webfont.woff2") format("woff2"),
+    url("fonts/museosansrounded-300-webfont.woff") format("woff"),
+    url("fonts/museosansrounded-300-webfont.ttf") format("truetype"),
+    url("fonts/museosansrounded-300-webfont.svg#museo_sans_rounded300")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* *,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  background: url("img/BG.png") center center no-repeat;
+  background-size: cover;
+}
+.section {
+  display: flex;
+}
+.section {
+  padding: 20px;
+  margin: 200px auto;
+  width: 750px;
+  height: 391px;
+  left: 57px;
+  top: 99px;
+
+  background: #111a28;
+  box-shadow: 0px 0px 65px rgba(0, 0, 0, 0.82);
+  border-radius: 10px;
+}
+.logo {
+  width: 65px;
+  height: 33px;
+  left: 77px;
+  top: 119px;
+}
+
+.logo img {
+  display: block;
+}
+
+.section__sneakers {
+  margin: 74px 76px 50px 36px;
+  width: 329px;
+  height: 159px;
+  left: 94px;
+  top: 216px;
+}
+
+.section__title {
+  margin: 45px 76px 10px 50px;
+  width: 170px;
+  height: 52px;
+  left: 499px;
+  top: 168px;
+  font-family: "museo_sans_rounded300";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 24px;
+  line-height: 26px;
+
+  color: #e1e1e1;
+}
+.section__subtitle {
+  margin: 20px 77px 30px 50px;
+  width: 167px;
+  height: 17px;
+  left: 499px;
+  top: 230px;
+
+  font-family: "museo_sans_rounded300";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: rgba(225, 225, 225, 0.54);
+}
+.button__dropdown {
+  margin: 20px 0px;
+
+  font-family: "museo_sans_rounded300";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #e1e1e1;
+  width: 69px;
+  height: 32px;
+  left: 499px;
+  top: 319px;
+
+  background: #111a28;
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  box-sizing: border-box;
+}
+.button {
+  font-family: "museo_sans_rounded300";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 14px;
+  line-height: 17px;
+  color: #e1e1e1;
+  width: 184px;
+  height: 40px;
+  left: 499px;
+  top: 381px;
+
+  background: rgba(76, 82, 90, 0.26);
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  box-sizing: border-box;
+}
+.img__Star {
+  margin: 30px 170px 30px 50px;
+}
+.first_button {
+  margin-left: 50px;
+}
+.button {
+  margin: 10px 60px 30px 50px;
+}
+.color {
+  position: relative;
+  right: 190px;
+}
